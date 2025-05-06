@@ -13,7 +13,7 @@ int main() {
     scanf("%d", &quantidade);
 
     if (!verificarQtdBilhetes(quantidade)) {
-        printf("Erro: A quantidade máxima permitida por pessoa é de %d bilhetes.\n", LIMITE_BILHETES);
+        printf("Erro: A quantidade máxima permitida por pessoa  %d bilhetes.\n", LIMITE_BILHETES);
         return 1;
     }
 
